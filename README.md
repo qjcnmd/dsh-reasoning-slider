@@ -1,19 +1,17 @@
-# reasoning-slider
+# dsh-reasoning-slider
 
 Codex 风格的**推理等级滑块**，直接内嵌在 DeepSeek Harness 的模型选择器里：点开模型选择器，选中模型后下方出现滑块，拖动即可切换该模型的推理档位（off / minimal / low / medium / high / xhigh / max）。
-
-![Reasoning slider in the model selector](docs/screenshot.png)
 
 ## 安装
 
 需要 pnpm（`npm i -g pnpm`）与 dsh（`npm i -g @deepseek-ai/dsh`）。
 
 ```sh
-# 从 GitHub 安装
-dsh plugin --profile web add github:qjcnmd/reasoning-slider
-
-# 或从 npm 安装（若已发布）
+# 从 npm 安装（推荐，快且稳）
 dsh plugin --profile web add reasoning-slider
+
+# 或从 GitHub 安装
+dsh plugin --profile web add github:qjcnmd/dsh-reasoning-slider
 ```
 
 安装完成后**重启 dsh web**（桌面端启动器请完全退出再打开）。
@@ -38,7 +36,7 @@ dsh plugin --profile web remove reasoning-slider
 ## 开发
 
 ```text
-reasoning-slider/
+dsh-reasoning-slider/
 ├── lib/
 │   ├── index.js   # Node half（纯 UI 插件，apply 为空）
 │   └── client.js  # 浏览器 half（完整滑块 UI）

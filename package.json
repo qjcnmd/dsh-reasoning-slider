@@ -4,6 +4,10 @@
   "description": "Codex-style reasoning-effort slider embedded in the DSH model selector",
   "type": "module",
   "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qjcnmd/dsh-reasoning-slider.git"
+  },
   "exports": {
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
