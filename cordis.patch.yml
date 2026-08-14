@@ -1,0 +1,6 @@
+# reasoning-slider bundle patch: mounts the plugin into the web composition.
+# Loaded automatically when the package is installed via `dsh plugin add`
+# (a `dsh.bundle` manifest declaration makes it a profile layer).
+- insert:
+    - id: reasoning-slider
+      name: reasoning-slider
