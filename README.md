@@ -1,6 +1,6 @@
 # dsh-reasoning-slider
 
-Codex 风格的**推理等级滑块**，直接内嵌在 DeepSeek Harness 的模型选择器里：点开模型选择器，选中模型后下方出现滑块，拖动即可切换该模型的推理档位（off / minimal / low / medium / high / xhigh / max）。
+**推理等级滑块**，直接内嵌在 DeepSeek Harness 的模型选择器里：点开模型选择器，选中模型后下方出现滑块，拖动即可切换该模型的推理档位（off / minimal / low / medium / high / xhigh / max）。
 
 ## 安装
 
@@ -14,16 +14,15 @@ dsh plugin --profile web add reasoning-slider
 dsh plugin --profile web add github:qjcnmd/dsh-reasoning-slider
 ```
 
-安装完成后**重启 dsh web**（桌面端启动器请完全退出再打开）。
+安装完成后**重启 dsh web**
 
 ## 功能
 
 - 滑块内嵌于模型选择器弹层，选择模型后自动显示该模型支持的推理档位
-- 拖动滑块实时预览，松开后生效（菜单保持打开，可继续选择模型）
+- 拖动滑块实时预览，松开后生效
 - 切换模型时自动携带当前档位；目标模型不支持当前档位时自动回退到其默认档位
 - 单档位模型显示"支持档位: xxx"，无档位模型显示提示
 - 键盘：←/→ 或 ↑/↓ 切换，滚动滚轮也可切换
-- 轨道颜色为 DeepSeek 官方鲸鱼品牌蓝 `#4d6bfe`
 
 ## 禁用 / 卸载
 
