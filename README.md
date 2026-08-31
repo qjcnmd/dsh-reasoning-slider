@@ -7,14 +7,8 @@
 需要 pnpm（`npm i -g pnpm`）与 dsh（`npm i -g @deepseek-ai/dsh`）。
 
 ```sh
-# 从 npm 安装（推荐，快且稳）
 dsh plugin --profile web add reasoning-slider
-
-# 或从 GitHub 安装
-dsh plugin --profile web add github:qjcnmd/dsh-reasoning-slider
 ```
-
-安装完成后**重启 dsh web**
 
 ## 功能
 
@@ -24,13 +18,11 @@ dsh plugin --profile web add github:qjcnmd/dsh-reasoning-slider
 - 单档位模型显示"支持档位: xxx"，无档位模型显示提示
 - 键盘：←/→ 或 ↑/↓ 切换，滚动滚轮也可切换
 
-## 禁用 / 卸载
+## 卸载
 
 ```sh
 dsh plugin --profile web remove reasoning-slider
 ```
-
-或编辑 `~/.dsh/profiles/web/cordis.patch.yml`，给 insert 行加 `disabled: true`。
 
 ## 开发
 
