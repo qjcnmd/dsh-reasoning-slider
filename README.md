@@ -26,9 +26,9 @@ dsh plugin --profile web remove reasoning-slider
 
 ## 兼容性
 
-`reasoning-slider@0.0.5` 支持 DSH `0.1.2-alpha.2`，要求 Node.js `22.13.0` 或更高版本。DSH `0.1.2-alpha.3` 与 `0.1.2-alpha.4` 尚未验证。
+`reasoning-slider@0.0.6` 支持 DSH `0.1.2-alpha.2`、`0.1.2-alpha.4`、`0.1.2-alpha.5` 与 `0.1.2-rc.1`，要求 Node.js `22.13.0` 或更高版本。DSH `0.1.2-alpha.3` 尚未验证。
 
-一次性 `web` Profile 已在 Windows、Node.js `24.19.0`、DSH `0.1.2-alpha.2` 环境完成本地插件安装、配置合成、服务冷启动、HTTP 页面响应及卸载复核。
+一次性 `web` Profile 已在 Windows、Node.js `24.19.0`、DSH `0.1.2-alpha.2` 环境，以及 WSL2 Ubuntu、Node.js `22.23.2`、DSH `0.1.2-alpha.4`、`0.1.2-alpha.5`、`0.1.2-rc.1` 环境完成本地插件安装、配置合成、服务冷启动、认证页面响应及卸载复核。
 
 ## 开发
 
